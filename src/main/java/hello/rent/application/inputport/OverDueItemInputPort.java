@@ -3,6 +3,7 @@ package hello.rent.application.inputport;
 import hello.rent.application.outputport.RentalCardOutputPort;
 import hello.rent.application.usecase.OverdueItemUsercase;
 import hello.rent.domain.model.RentalCard;
+import hello.rent.domain.model.vo.Item;
 import hello.rent.framework.web.dto.RentalCardOutputDTO;
 import hello.rent.framework.web.dto.UserItemInputDTO;
 import lombok.RequiredArgsConstructor;

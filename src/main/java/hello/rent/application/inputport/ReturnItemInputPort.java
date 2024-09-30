@@ -8,8 +8,8 @@ import hello.rent.domain.model.event.ItemReturned;
 import hello.rent.domain.model.vo.Item;
 import hello.rent.framework.web.dto.RentalCardOutputDTO;
 import hello.rent.framework.web.dto.UserItemInputDTO;
-import jakarta.transaction.Transactional;
 import java.time.LocalDate;
+import javax.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

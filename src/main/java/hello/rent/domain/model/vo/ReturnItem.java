@@ -1,9 +1,9 @@
 package hello.rent.domain.model.vo;
 
 import hello.rent.domain.model.RentalItem;
-import jakarta.persistence.Embeddable;
-import jakarta.persistence.Embedded;
 import java.time.LocalDate;
+import javax.persistence.Embeddable;
+import javax.persistence.Embedded;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

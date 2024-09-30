@@ -1,9 +1,9 @@
 package hello.rent.domain.model.vo;
 
-import jakarta.persistence.Embeddable;
 import java.io.Serializable;
 import java.time.LocalDate;
 import java.util.UUID;
+import javax.persistence.Embeddable;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
